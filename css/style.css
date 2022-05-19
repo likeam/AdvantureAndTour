@@ -582,3 +582,8 @@ section {
         .newsletter .content form .btn :hover {
           background: none;
           color: #10221b; }
+
+.clients .silde {
+  text-align: center; }
+  .clients .silde img {
+    height: 12rem; }
