@@ -1,0 +1,25 @@
+{
+  "name": "advanturandtours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/likeam/AdvantureAndTour.git"
+  },
+  "author": "Abdul Rehman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/likeam/AdvantureAndTour/issues"
+  },
+  "homepage": "https://github.com/likeam/AdvantureAndTour#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
