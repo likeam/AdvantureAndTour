@@ -1,0 +1,63 @@
+
+.services {
+    background: #eee;
+
+
+    & .box-container {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: (minmax(31rem, 1fr))[auto-fit];
+            grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
+        gap: 1.5rem;
+    
+    
+        & .box {
+            text-align: center;
+            padding: 2rem;
+            border: 0.2rem solid #10221b;
+            border-radius: .5rem;
+            background: #fff;
+        
+        
+            & :hover {
+                background: #10221b;
+            }
+            
+            & :hover img {
+                -webkit-filter: invert(1);
+                        filter: invert(1);
+            }
+            
+            & :hover p {
+                color: #fff;
+            }
+            
+            & :hover .btn {
+                border-color: #fff;
+                color: #fff;
+            }
+            
+            & :hover .btn:hover {
+                background: #fff;
+                color: #10221b;
+            }
+            
+            & img {
+                height: 10rem;
+                margin-bottom: 1rem;
+            }
+            
+            & h3 {
+                font-size: 2rem;
+                color: #219150;
+            }
+            
+            & {
+                font-size: 1.5rem;
+                color: #10221b;
+                padding: 1rem 0;
+                line-height: 2;
+            }
+        }
+    }
+}                
