@@ -12,58 +12,58 @@
     -ms-flex-align: center;
     align-items: center;
 
-& .active {
-    background: #fff;
-    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-}
+    & .active {
+        background: #fff;
+        -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    }
 
-& .logo {
-    margin-right: auto;
-    font-size: 2.5rem;
-    color: #10221b;
-    font-weight: bolder;
-}
+    & .logo {
+        margin-right: auto;
+        font-size: 2.5rem;
+        color: #10221b;
+        font-weight: bolder;
+    }
 
-& .logo i {
-    color: #219150;
-}
+    & .logo i {
+        color: #219150;
+    }
 
-& .navbar a {
-    margin-left: 2rem;
-    font-size: 1.7rem;
-    color: #10221b;
-}
+    & .navbar a {
+        margin-left: 2rem;
+        font-size: 1.7rem;
+        color: #10221b;
+    }
 
-& .navbar a:hover {
-    color: #219150;
-}
+    & .navbar a:hover {
+        color: #219150;
+    }
 
-& .navbar #nav-close {
-    font-size: 5rem;
-    cursor: pointer;
-    color: #10221b;
-    display: none;
-}
+    & .navbar #nav-close {
+        font-size: 5rem;
+        cursor: pointer;
+        color: #10221b;
+        display: none;
+    }
 
 
 
-& .icons a,
-& .icons div {
-    font-size: 2.5rem;
-    margin-left: 2rem;
-    cursor: pointer;
-    color: #10221b;
-}
+    & .icons a,
+    & .icons div {
+        font-size: 2.5rem;
+        margin-left: 2rem;
+        cursor: pointer;
+        color: #10221b;
+    }
 
-& .icons a:hover,
-& .icons div:hover {
-    color: #219150;
-}
+    & .icons a:hover,
+    & .icons div:hover {
+        color: #219150;
+    }
 
-& #menu-btn {
-    display: none;
-}
+    & #menu-btn {
+        display: none;
+    }
 
 }
 

@@ -9,24 +9,25 @@
     & .box {
     text-align: center;
     padding: 1rem;
-    }
+    
 
-    & .box img {
-        height: 20rem;
-        width: 20rem;
-        border-radius: 50%;
-        margin-bottom: 1rem;
-    }
+        & img {
+            height: 20rem;
+            width: 20rem;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+        }
 
-    &.box h3 {
-        font-size: 2rem;
-        color: #219150;
-    }
+        & h3 {
+            font-size: 2rem;
+            color: #219150;
+        }
 
-    & .box p {
-        font-size: 1.5rem;
-        color: #10221b;
-        padding: 1rem 0;
-        line-height: 2;
+        & p {
+            font-size: 1.5rem;
+            color: #10221b;
+            padding: 1rem 0;
+            line-height: 2;
+        }
     }
 }  
