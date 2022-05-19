@@ -1,0 +1,50 @@
+.blogs .slide {
+    text-align: center;
+    padding: 2rem;
+
+
+    & img {
+        height: 25rem;
+        width: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+        border-radius: .5rem;
+    }
+    
+    & h3 {
+        font-size: 2rem;
+        color: #10221b;
+    }
+    
+    & p {
+        font-size: 1.4rem;
+        padding: 1rem 0;
+        line-height: 2;
+        color: #10221b;
+    }
+    
+    & .icons {
+        background: #10221b;
+        border-radius: .5rem;
+        padding: 1rem;
+        position: relative;
+        top: -2rem;
+        display: inline-block;
+    
+        
+        & a {
+            font-size: 1.4rem;
+            color: #fff;
+            margin: 0 1rem;
+        }
+        
+        & a:hover {
+            color: #219150;
+        }
+        
+        & a i {
+            padding-right: .5rem;
+            color: #219150;
+        }
+    }
+}
